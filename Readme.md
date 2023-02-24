@@ -6,4 +6,4 @@ Run the following script and this will produce a book.epub in the current direct
 ./create-epub.sh
 ```
 
-The book will contain an image.
+The script will create a book.epub in the current directory.
