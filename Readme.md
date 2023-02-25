@@ -17,3 +17,9 @@ open book.html
 ```
 
 Then click on the images that are references.  This is just a quick way to determine if the image paths are correct.
+
+You can also then turn the book.html into an epub using: 
+
+```shell
+kindlegen book.html -o book.epub
+```
