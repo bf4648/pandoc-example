@@ -21,6 +21,6 @@ Then click on the images that are references.  This is just a quick way to deter
 You can then turn the book.html into an epub using: 
 
 ```shell
-# requires : `brew install --cask kindle`
-kindlegen book.html -o book.epub
+Requires: `brew install pandoc`
+pandoc -s mds/*.md -o book.epub
 ```
