@@ -22,5 +22,5 @@ You can then turn the book.html into an epub using:
 
 ```shell
 Requires: `brew install pandoc`
-pandoc -s mds/*.md -o book.epub
+pandoc book.html -o book.epub
 ```
